@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+:root {
+
+  /**
+   * colors
+   */
+
+  --color-primary: #131824;
+  --color-secondary: #899eb8;
+}
+*{
+    font-family: "DM Sans", sans-serif;
+}
+
+/* Navbar */
+#logo{
+  width: 100px;
+}
+.custom-navbar {
+  background-color: var(--color-primary);
+}
+
+.custom-navbar .nav-link {
+  color: var(--color-secondary);
+  font-weight: 600;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link.active {
+  color: white;
+}
+
+.custom-navbar .nav-link.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: white;
+  width: 100%;
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+}
+.navbar-nav{
+  color: white;
+}
+.nav-link.active {
+  color: white !important;
+  font-weight: 600;
+  position: relative;
+}
+
+.nav-link.active::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: white;
+  bottom: -5px;
+  left: 0;
+}
+/* Swiper slider */
+.slider-wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.slide {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* About */
+.about-section {
+  background-color: #fff;
+}
+
+.about-hero-text {
+  font-size: 6rem;
+  font-weight: 800;
+  background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXM3bHV3cWY2aXNqaHpmc2MwYWFhbm5scnN1Z2R4eXN5NDZpeGt0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wKTRH20jDaj3W/giphy.gif'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: pan-image 20s linear infinite;
+}
+
+@keyframes pan-image {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.vision-section {
+  background-color: #eaeef3;
+}
+/* Contact */
+.contact-info a{
+  color: var(--color-primary);
+  text-decoration: none;
+}
