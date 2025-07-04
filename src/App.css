@@ -147,3 +147,11 @@ blockquote {
   font-size: 1.1rem;
   line-height: 1.6;
 }
+.btn{
+  background-color: var(--color-primary);
+  color: white;
+}
+.btn:hover{
+  background-color: var(--color-secondary);
+  color: black;
+}

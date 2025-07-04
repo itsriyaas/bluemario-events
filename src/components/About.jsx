@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
   return (
@@ -18,7 +19,7 @@ const AboutSection = () => {
             <p className="mb-0">
               Join the celebration with Blue Mario Events where your ideas come to life in style.
             </p>
-            <a href='/about'><button className='btn btn-danger mt-3'>Read More</button></a>
+      <Link to={'/about'}><button className='btn mt-3'>Read More</button></Link>
           </Col>
 
           {/* YouTube Video */}
