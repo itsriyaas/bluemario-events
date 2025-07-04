@@ -11,6 +11,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import NotFound from './pages/NotFound';
+import WhatsAppButton from './components/WhatsappButton';
 function App() {
  useEffect(() => {
   AOS.init({ duration: 1000 });
@@ -29,6 +30,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
+          <WhatsAppButton/>
         </main>
         <Footer />
       </div>

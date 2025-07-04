@@ -29,7 +29,7 @@ const ContactSection = () => {
                   <label className="form-label">Message</label>
                   <textarea className="form-control" rows="4" required></textarea>
                 </div>
-                <button type="submit" className="btn btn-success">Send Message</button>
+                <button type="submit" className="btn">Send Message</button>
               </form>
             </div>
   
