@@ -7,8 +7,10 @@ import 'aos/dist/aos.css';
 const images = [
   { src: 'https://i.pinimg.com/originals/21/ee/6f/21ee6f8e553834393ef669a984accb5e.jpg', alt: 'Wedding decor' },
   { src: 'https://www.framehunt.com/wp-content/uploads/2021/04/Traditional-Kerala-Hindu-Wedding-1.jpg', alt: 'Stage lighting' },
-  { src: 'https://i.ytimg.com/vi/-Sq5gSvA0ZQ/maxresdefault.jpg', alt: 'Reception setup' },
-  { src: 'https://cdn0.weddingwire.in/vendor/4909/3_2/960/jpg/wedding-photography-crystalline-studio-couple-shot-3_15_274909-158251444149123.jpeg', alt: 'Traditional setup' },
+  { src: 'assets/works/AJU08185-min.jpg', alt: 'Reception setup' },
+  { src: 'assets/works/DSC07782-min.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/AJU08186-min.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/DSC09988-min.jpg', alt: 'Traditional setup' },
 ];
 
 const videos = [
@@ -35,7 +37,7 @@ const GallerySection = () => {
 
   return (
     <Container className="my-5">
-      <h2 className="text-center fw-bold mb-4">Gallery</h2>
+      <h2 className="text-center fw-bold mb-4">Our Works</h2>
 
       <Row className="g-4">
         {images.map((img, idx) => (
