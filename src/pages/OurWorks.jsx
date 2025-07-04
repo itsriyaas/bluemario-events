@@ -1,8 +1,11 @@
 import React from 'react'
+import GallerySection from '../components/GallerySection'
 
 function OurWorks() {
   return (
-    <div>OurWorks</div>
+    <>
+  <GallerySection/>
+    </>
   )
 }
 

@@ -83,7 +83,7 @@
 }
 
 .about-hero-text {
-  font-size: 6rem;
+  font-size: 4rem;
   font-weight: 800;
   background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXM3bHV3cWY2aXNqaHpmc2MwYWFhbm5scnN1Z2R4eXN5NDZpeGt0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wKTRH20jDaj3W/giphy.gif'); /* Replace with your actual image */
   background-size: cover;
@@ -93,6 +93,18 @@
   color: transparent;
   animation: pan-image 20s linear infinite;
 }
+.services-hero-text {
+  font-size: 4rem;
+  font-weight: 800;
+  background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXM3bHV3cWY2aXNqaHpmc2MwYWFhbm5scnN1Z2R4eXN5NDZpeGt0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wKTRH20jDaj3W/giphy.gif'); /* Replace with your actual image */
+  background-size: cover;
+  background-position: center;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  animation: pan-image 20s linear infinite;
+}
+
 
 @keyframes pan-image {
   0% {
@@ -110,4 +122,28 @@
 .contact-info a{
   color: var(--color-primary);
   text-decoration: none;
+}
+.text-purple {
+  color: #6f42c1;
+}
+
+.text-pink {
+  color: #d63384;
+}
+/* Gallery */
+.gallery-img-wrapper img {
+  transition: transform 0.3s ease;
+}
+
+.gallery-img-wrapper:hover img {
+  transform: scale(1.05);
+}
+/* Testimonials */
+.testimonials-section {
+  background: #f9f9f9;
+}
+
+blockquote {
+  font-size: 1.1rem;
+  line-height: 1.6;
 }

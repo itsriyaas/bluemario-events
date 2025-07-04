@@ -18,6 +18,7 @@ const AboutSection = () => {
             <p className="mb-0">
               Join the celebration with Blue Mario Events where your ideas come to life in style.
             </p>
+            <a href='/about'><button className='btn btn-danger mt-3'>Read More</button></a>
           </Col>
 
           {/* YouTube Video */}

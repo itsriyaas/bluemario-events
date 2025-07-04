@@ -10,6 +10,7 @@ import Contact from './pages/Contact';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
+import NotFound from './pages/NotFound';
 function App() {
  useEffect(() => {
   AOS.init({ duration: 1000 });
@@ -26,6 +27,7 @@ function App() {
             <Route path="/services" element={<Services />} />
             <Route path="/our-work" element={<OurWorks />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />
