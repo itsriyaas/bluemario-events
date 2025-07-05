@@ -17,6 +17,38 @@ const testimonials = [
     name: "Sowmya Binoy",
     message: `I recently had the pleasure of working with Blue Mario for our event, and I was thoroughly impressed with their stage decor services. From the initial consultation to the final setup, their attention to detail and creative vision were evident.`,
   },
+   {
+    name: "Anjali Joy",
+    message: `The stage decoration was absolutely stunning and exceeded all expectations. Every detail, from the lighting to the floral arrangements and backdrop design, was thoughtfully planned and beautifully executed. It created a perfect atmosphere and truly elevated the entire event. A big thank you to the team for their creativity and professionalism!`,
+  },
+  {
+    name: "Veena K",
+    message: `Bluemario Decorations and Events turned my wedding dreams into a reality. Initially, I was hesitant because they were a bit distant, but their professionalism and talent quickly won me over. They flawlessly captured my vision for a dream Mandapam and transformed it into a stunning reality`,
+  },
+  {
+    name: "Sedwin Vadukut",
+    message: `This is the second time we are partnering with BlueMario for an event. This time it was for my son’s First Holy Communion. We virtually engaged Darwin and his team from several weeks before the event from our home base in Florida by sharing examples of how we would like the stage, decor and overall theme to be.`,
+  },
+  {
+    name: "Saritha John",
+    message: `It was such a good experience with bluemario team as the most efficient and budget friendly team.. A Truly trust worthy and hard working team, with no doubt a highly recommended event management team. Heartfelt gratitude from our family to bluemario for giving such a memorable work 🫶🏻🫶🏻`,
+  },
+  {
+    name: "Swati Sukumar",
+    message: `We were completely satisfied with their work. They were very professional and their work was on time. The stage setup and other arrangements were lovely, creating a perfect balance between minimalism and elegance.I am really happy with their work.We are extremely happy and satisfied with this team and we will make sure to book them for all out future events. Highly recomended.`,
+  },
+  {
+    name: "Namrata Antony",
+    message: `BLUEMARIO I really appreciate their hardwork and dedication.This is our third function we are giving to this team. I would like to special thanks to Darwin.He turns our dream into reality. The entire team demonstrated exceptional skill and professionalism, delivering outstanding results at a very competitive price. I will undoubtedly recommend your services to others.Thankyou BLUEMARIO and team to make this event so special❤️`,
+  },
+  {
+    name: "Varsha Paul",
+    message: `Blue Mario team did a fab job for my betrothal day decor . From the flower arrangements to the entire banquet setting everything was so beautiful and very well presented , exactly as how I wanted it to be . The guests were all impressed and thanks to the team .❤️`,
+  },
+   {
+    name: "Ashok Kumar",
+    message: `It’s my Cousins Babies Baptism at kalady. Worth for money. They have given us a wonderful heavenly experience. I already suggested to my friends in abroad. Mr Darwin and Mr Visakh are very creative and customer friendly.`,
+  },
 ];
 
 const TestimonialsSection = () => {
