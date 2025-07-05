@@ -52,7 +52,7 @@ const GallerySection = () => {
             </div>
           </Col>
         ))}
-        {videos.map((video, idx) => (
+        {/* {videos.map((video, idx) => (
           <Col xs={12} sm={6} md={6} key={idx + images.length} data-aos="fade-up">
             <div
               className="ratio ratio-16x9 rounded shadow-sm video-thumbnail"
@@ -68,7 +68,7 @@ const GallerySection = () => {
               ></iframe>
             </div>
           </Col>
-        ))}
+        ))} */}
       </Row>
 
       <Modal show={show} onHide={handleClose} size="xl" centered>
