@@ -26,7 +26,7 @@ const AboutSection = () => {
           <Col md={6} data-aos="fade-right" className="mt-4 mt-md-0">
             <div className="ratio ratio-16x9">
               <iframe
-                src="https://www.youtube.com/embed/u31qwQUeGuM"
+                src="https://www.youtube.com/embed/TeTw19X-xMg"
                 title="Blue Mario Events"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
