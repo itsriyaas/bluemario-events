@@ -36,6 +36,7 @@ const Footer = () => {
                 <a href="/contact" className="text-light text-decoration-none mb-1">Contact Us</a>
               </div>
             </div>
+            
             <div className="mt-4 d-flex gap-3">
               <a href="https://www.instagram.com/bluemariodecorationsandevents/"><FaInstagram className="text-light fs-5" /></a>
               <a href="https://www.facebook.com/Bluemariodecorations/"><FaFacebookF className="text-light fs-5" /></a>
@@ -43,6 +44,10 @@ const Footer = () => {
             </div>
           </Col>
         </Row>
+        <div className='copyright'>
+              <p className='text-secondary mt-5'>©2025 BlueMario Events All rights reserved.</p>
+              <p className='text-secondary'>Designed By <a href='https://theaitsolutions.net/' target='_blank'>Thea IT Solutions</a></p>
+            </div>
       </Container>
     </footer>
   );
