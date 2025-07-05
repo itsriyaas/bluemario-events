@@ -199,11 +199,3 @@ blockquote {
   color: white;
   text-decoration: underline;
 }
-.navbar--hidden {
-  transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
-}
-
-.custom-navbar {
-  transition: transform 0.3s ease-in-out;
-}
