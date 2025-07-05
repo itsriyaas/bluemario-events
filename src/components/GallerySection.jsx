@@ -5,7 +5,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const images = [
-  { src: 'https://i.pinimg.com/originals/21/ee/6f/21ee6f8e553834393ef669a984accb5e.jpg', alt: 'Wedding decor' },
+  { src: 'https://i.pinimg.com/originals/e9/89/ab/e989abd00ddc6fc889716d5c7e23bab4.jpg', alt: 'Wedding decor' },
   { src: 'https://www.framehunt.com/wp-content/uploads/2021/04/Traditional-Kerala-Hindu-Wedding-1.jpg', alt: 'Stage lighting' },
   { src: 'assets/works/AJU08185-min.jpg', alt: 'Reception setup' },
   { src: 'assets/works/DSC07782-min.jpg', alt: 'Traditional setup' },
