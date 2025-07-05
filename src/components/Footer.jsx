@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { FaInstagram, FaFacebookF, FaTwitter, FaEnvelope, FaPhone } from 'react-icons/fa';
 import { FaMapLocation } from 'react-icons/fa6';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -29,11 +30,11 @@ const Footer = () => {
             <h6 className="text-uppercase fw-bold mb-3 text-light">Menu</h6>
             <div className="d-flex flex-wrap gap-4">
               <div className="d-flex flex-column">
-                <a href="/" className="text-light text-decoration-none mb-1">Home</a>
-                <a href="/about" className="text-light text-decoration-none mb-1">About Us</a>
-                <a href="/services" className="text-light text-decoration-none mb-1">Services</a>
-                <a href="/our-work" className="text-light text-decoration-none mb-1">Our Work</a>
-                <a href="/contact" className="text-light text-decoration-none mb-1">Contact Us</a>
+                <Link className="text-light text-decoration-none mb-1" to={"/"}>Home</Link>
+                <Link className="text-light text-decoration-none mb-1" to={"/about"}>About Us</Link>
+                <Link className="text-light text-decoration-none mb-1" to={"/services"}>Services</Link>
+                <Link className="text-light text-decoration-none mb-1" to={"/our-work"}>Our Work</Link>
+                <Link className="text-light text-decoration-none mb-1" to={"/contact"}>Contact Us</Link>
               </div>
             </div>
             
