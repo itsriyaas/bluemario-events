@@ -5,8 +5,8 @@
    * colors
    */
 
-  --color-primary: #131824;
-  --color-secondary: #899eb8;
+  --color-primary: #0a1931;
+  --color-secondary: #e2f0fc;
 }
 *{
     font-family: "DM Sans", sans-serif;
@@ -79,7 +79,10 @@
 }
 /* About */
 .about-section {
-  background-color: #fff;
+  background-color: white;
+}
+#about{
+  background-color: var(--color-secondary);
 }
 
 .about-hero-text {
@@ -116,9 +119,12 @@
 }
 
 .vision-section {
-  background-color: #eaeef3;
+  background-color: var(--color-secondary);
 }
 /* Contact */
+.contact-section{
+  background-color: var(--color-secondary);
+}
 .contact-info a{
   color: var(--color-primary);
   text-decoration: none;
@@ -198,4 +204,13 @@ blockquote {
 .copyright a:hover{
   color: white;
   text-decoration: underline;
+}
+@media (max-width: 768px) {
+ .slider-wrapper{
+  width: 100%;
+  height: 250px;
+ }
+}
+.gallery-body{
+  background-color: var(--color-secondary);
 }

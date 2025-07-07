@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const AboutSection = () => {
   return (
-    <section className="py-5 bg-light" id="about">
+    <section className="py-5" id="about">
       <Container>
         <h2 className="text-center fw-bold mb-4">About Blue Mario Events</h2>
         <Row className="align-items-center">

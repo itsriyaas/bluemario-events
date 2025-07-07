@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#131824', padding: '60px 0' }}>
+    <footer style={{ backgroundColor: '#0a1931', padding: '60px 0' }}>
       <Container>
         <Row className="gy-4">
           {/* Logo Section */}

@@ -38,7 +38,6 @@ const GallerySection = () => {
   return (
     <Container className="my-5">
       <h2 className="text-center fw-bold mb-4">Our Works</h2>
-
       <Row className="g-4">
         {images.map((img, idx) => (
           <Col xs={12} sm={6} md={4} key={idx} data-aos="fade-up">

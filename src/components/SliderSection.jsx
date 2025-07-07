@@ -30,8 +30,12 @@ const SliderSection = () => {
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
-            <div className="slide" style={{ backgroundImage: `url(${slide.image})` }}>
-            </div>
+            <img
+              src={slide.image}
+              alt={`Slide ${index + 1}`}
+              className="slider-image"
+              style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
+            />
           </SwiperSlide>
         ))}
       </Swiper>

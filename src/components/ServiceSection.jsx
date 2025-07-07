@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   .services-title {
     font-size: 3rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #131824, #899eb8);
+    background: linear-gradient(135deg, #0a1931, #b3cfe5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -23,14 +23,14 @@ const Wrapper = styled.div`
   }
 
   .bgblue {
-    background: linear-gradient(135deg, #fffffff5, #131824, #ffffff98);
+    background: linear-gradient(135deg, #fffffff5, #0a1931, #ffffff98);
     padding: 1px;
     border-radius: 1.2rem;
     box-shadow: 0px 1rem 1.5rem -0.9rem #000000e1;
   }
 
   .card {
-    background: linear-gradient(135deg, #899eb8 0%, #131824 43%, #0d1120 100%);
+    background: linear-gradient(135deg, #b3cfe5 0%, #0a1931 43%, #0d1120 100%);
     color: #dee3ec;
     padding: 2rem;
     border-radius: 1.2rem;
@@ -107,7 +107,7 @@ const ServicesSection = () => {
   return (
     <Wrapper>
      <div className="hero-text-container text-center">
-                <h1 className="services-hero-text">SERVICES</h1>
+                <h1 className="services-hero-text mb-5">SERVICES</h1>
             </div>
 
       <div className="services-grid">
