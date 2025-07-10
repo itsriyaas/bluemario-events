@@ -192,7 +192,7 @@ blockquote {
   background-color: var(--color-secondary);
 }
 .about-banner {
-  background-image: url('assets/works/wed10.jpg'); 
+  background-image: url('/assets/works/wed10.jpg'); 
  background-size: cover;
   background-position: center;
   height: 300px;
@@ -208,7 +208,7 @@ blockquote {
   z-index: -1;
 }
 .service-banner {
-  background-image: url('assets/works/wed9.jpg'); 
+  background-image: url('/assets/works/wed9.jpg'); 
  background-size: cover;
   background-position: center;
   height: 300px;
@@ -225,14 +225,6 @@ blockquote {
 }
 
 /* Ready to explore */
-.hero-banner {
-  background-image: url('/assets/works/wedding-banner.jpg'); /* Replace with your image path */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  position: relative;
-}
-
 .book-us-section {
   background: linear-gradient(to right, #061a2e, #15466e);
   min-height: 400px;
