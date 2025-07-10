@@ -1,4 +1,3 @@
-// GallerySection.jsx
 import React, { useState, useEffect } from 'react';
 import { Container, Row, Col, Modal } from 'react-bootstrap';
 import AOS from 'aos';
@@ -11,86 +10,77 @@ const images = [
   { src: 'assets/works/DSC07782-min.jpg', alt: 'Traditional setup' },
   { src: 'assets/works/AJU08186-min.jpg', alt: 'Traditional setup' },
   { src: 'assets/works/DSC09988-min.jpg', alt: 'Traditional setup' },
-];
-
-const videos = [
-  { src: 'https://www.youtube.com/embed/dQw4w9WgXcQ', title: 'Promo Video 1' },
-  { src: 'https://www.youtube.com/embed/tgbNymZ7vqY', title: 'Behind the Scenes' },
+  { src: 'assets/works/wed1.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed2.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed3.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed4.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wedbanner5.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed6.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed7.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed8.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed14.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed10.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed11.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed12.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed15.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/wed16.jpg', alt: 'Traditional setup' },
 ];
 
 const GallerySection = () => {
   useEffect(() => {
-    AOS.init({ once: true, duration: 800 });
+    AOS.init({ once: true, duration: 1000 });
   }, []);
 
   const [show, setShow] = useState(false);
   const [content, setContent] = useState(null);
-  const [type, setType] = useState('image');
 
-  const handleShow = (item, itemType) => {
-    setContent(item);
-    setType(itemType);
+  const handleShow = (img) => {
+    setContent(img);
     setShow(true);
   };
 
   const handleClose = () => setShow(false);
 
   return (
-    <Container className="my-5">
-      <h2 className="text-center fw-bold mb-4">Our Works</h2>
-      <Row className="g-4">
-        {images.map((img, idx) => (
-          <Col xs={12} sm={6} md={4} key={idx} data-aos="fade-up">
-            <div className="gallery-img-wrapper rounded overflow-hidden shadow-sm" onClick={() => handleShow(img, 'image')}>
-              <img
-                src={img.src}
-                alt={img.alt}
-                className="w-100 h-100 object-fit-cover"
-                style={{ maxHeight: '250px', cursor: 'pointer' }}
-              />
-            </div>
-          </Col>
-        ))}
-        {/* {videos.map((video, idx) => (
-          <Col xs={12} sm={6} md={6} key={idx + images.length} data-aos="fade-up">
-            <div
-              className="ratio ratio-16x9 rounded shadow-sm video-thumbnail"
-              onClick={() => handleShow(video, 'video')}
-              style={{ cursor: 'pointer' }}
-            >
-              <iframe
-                src={video.src}
-                title={video.title}
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                style={{ pointerEvents: 'none' }}
-              ></iframe>
-            </div>
-          </Col>
-        ))} */}
-      </Row>
+    <>
+      {/* Banner */}
+      <div className="about-banner text-white d-flex justify-content-center align-items-center">
+        <div className="text-center" data-aos="fade-down">
+          <h1 className="display-5 fw-bold">OUR WORKS</h1>
+        </div>
+      </div>
 
-      <Modal show={show} onHide={handleClose} size="xl" centered>
-        <Modal.Body className="p-0">
-          {type === 'image' ? (
+      <Container className="my-2">
+        <Row className="g-4">
+          {images.map((img, idx) => (
+            <Col xs={12} sm={6} md={4} lg={3} key={idx} data-aos="zoom-in" data-aos-delay={idx * 50}>
+              <div
+                className="gallery-img-wrapper rounded overflow-hidden shadow-sm position-relative"
+                onClick={() => handleShow(img)}
+                style={{ cursor: 'pointer' }}
+              >
+                <img
+                  src={img.src}
+                  alt={img.alt}
+                  className="w-100 h-100 object-fit-cover"
+                  style={{ maxHeight: '250px', transition: 'transform 0.3s ease' }}
+                />
+              </div>
+            </Col>
+          ))}
+        </Row>
+
+        <Modal show={show} onHide={handleClose} size="xl" centered>
+          <Modal.Body className="p-0">
             <img
               src={content?.src}
               alt={content?.alt}
               className="img-fluid w-100 rounded"
             />
-          ) : (
-            <div className="ratio ratio-16x9">
-              <iframe
-                src={content?.src}
-                title={content?.title}
-                allow="autoplay; fullscreen"
-                allowFullScreen
-              ></iframe>
-            </div>
-          )}
-        </Modal.Body>
-      </Modal>
-    </Container>
+          </Modal.Body>
+        </Modal>
+      </Container>
+    </>
   );
 };
 

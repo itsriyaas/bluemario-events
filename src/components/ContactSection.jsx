@@ -31,11 +31,14 @@ const ContactSection = () => {
   };
 
   return (
-    <section className="contact-section py-5">
-      <div className="container">
-        <div className="text-center mb-3">
-          <h1 className="display-5 fw-bold">Contact Us</h1>
+    <section className="contact-section">
+      {/* Banner */}
+      <div className="about-banner text-white d-flex justify-content-center align-items-center">
+        <div className="text-center" data-aos="fade-down">
+          <h1 className="display-5 fw-bold">CONTACT US</h1>
         </div>
+      </div>
+      <div className="container mt-5">
         <div className="row g-4 align-items-stretch">
           {/* Contact Form */}
           <div className="col-md-6" data-aos="fade-right">

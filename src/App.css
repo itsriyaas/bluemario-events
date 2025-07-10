@@ -85,29 +85,6 @@
   background-color: var(--color-secondary);
 }
 
-.about-hero-text {
-  font-size: 4rem;
-  font-weight: 800;
-  background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXM3bHV3cWY2aXNqaHpmc2MwYWFhbm5scnN1Z2R4eXN5NDZpeGt0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wKTRH20jDaj3W/giphy.gif'); /* Replace with your actual image */
-  background-size: cover;
-  background-position: center;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: pan-image 20s linear infinite;
-}
-.services-hero-text {
-  font-size: 4rem;
-  font-weight: 800;
-  background-image: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXM3bHV3cWY2aXNqaHpmc2MwYWFhbm5scnN1Z2R4eXN5NDZpeGt0MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wKTRH20jDaj3W/giphy.gif'); /* Replace with your actual image */
-  background-size: cover;
-  background-position: center;
-  background-clip: border-box;
-  -webkit-background-clip: text;
-  color: transparent;
-  animation: pan-image 20s linear infinite;
-}
-
 
 @keyframes pan-image {
   0% {
@@ -214,3 +191,50 @@ blockquote {
 .gallery-body{
   background-color: var(--color-secondary);
 }
+.about-banner {
+  background-image: url('assets/works/wed10.jpg'); 
+ background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.about-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+.service-banner {
+  background-image: url('assets/works/wed9.jpg'); 
+ background-size: cover;
+  background-position: center;
+  height: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+.service-banner::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+}
+
+/* Ready to explore */
+.hero-banner {
+  background-image: url('/assets/works/wedding-banner.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.book-us-section {
+  background: linear-gradient(to right, #061a2e, #15466e);
+  min-height: 400px;
+}
+

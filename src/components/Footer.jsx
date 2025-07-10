@@ -11,7 +11,7 @@ const Footer = () => {
         <Row className="gy-4">
           {/* Logo Section */}
           <Col xs={12} md={4} className="text-center text-md-start">
-            <img src="assets/bluemario_logo.png" alt="Blue Mario" style={{ height: '120px' }} />
+            <img src="assets/bluemario_logo.png" alt="Blue Mario" style={{ height: '70px' }} />
           </Col>
 
           {/* Contact Info */}
@@ -39,9 +39,8 @@ const Footer = () => {
             </div>
             
             <div className="mt-4 d-flex gap-3">
-              <a href="https://www.instagram.com/bluemariodecorationsandevents/"><FaInstagram className="text-light fs-5" /></a>
-              <a href="https://www.facebook.com/Bluemariodecorations/"><FaFacebookF className="text-light fs-5" /></a>
-              <a href="#"><FaTwitter className="text-light fs-5" /></a>
+              <a href="https://www.instagram.com/bluemariodecorationsandevents/" target='_blank'><FaInstagram className="text-light fs-5" /></a>
+              <a href="https://www.facebook.com/Bluemariodecorations/" target='_blank'><FaFacebookF className="text-light fs-5" /></a>
             </div>
           </Col>
         </Row>

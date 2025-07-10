@@ -105,23 +105,27 @@ const services = [
 
 const ServicesSection = () => {
   return (
-    <Wrapper>
-     <div className="hero-text-container text-center">
-                <h1 className="services-hero-text mb-5">SERVICES</h1>
-            </div>
-
-      <div className="services-grid">
-        {services.map((service, index) => (
-          <div className="bgblue" key={index} data-aos="fade-up">
-            <div className="card">
-              <div className="icon text-white mb-3">{service.icon}</div>
-              <h5 className="text-white">{service.title}</h5>
-              <p className="text-light">{service.description}</p>
-            </div>
-          </div>
-        ))}
+    <>
+     {/* Banner */}
+      <div className="service-banner text-white d-flex justify-content-center align-items-center">
+        <div className="text-center" data-aos="fade-down">
+          <h1 className="display-5 fw-bold">SERVICES</h1>
+        </div>
       </div>
-    </Wrapper>
+      <Wrapper id='about'>
+        <div className="services-grid">
+          {services.map((service, index) => (
+            <div className="bgblue" key={index} data-aos="fade-up">
+              <div className="card">
+                <div className="icon text-white mb-3">{service.icon}</div>
+                <h5 className="text-white">{service.title}</h5>
+                <p className="text-light">{service.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </Wrapper>
+    </>
   );
 };
 

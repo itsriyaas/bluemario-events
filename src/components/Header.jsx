@@ -19,7 +19,7 @@ const NavBar = () => {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src="assets/logo_final.png" alt="Blue Mario Logo" height={50} />
+          <img src="assets/logo_final.png" alt="Blue Mario Logo" height={40} />
         </Navbar.Brand>
 
         <Navbar.Toggle
