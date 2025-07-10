@@ -81,7 +81,7 @@ const ContactSection = () => {
           </div>
 
           {/* Map Embed */}
-          <div className="col-md-6" data-aos="fade-left">
+          <div className="col-md-6" data-aos="fade-right">
             <div className="h-100 rounded shadow-sm overflow-hidden">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3923.6313013456415!2d76.2090132!3d10.450803700000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba7f186e939ad0d%3A0x58e0687a90a8a1a4!2sBLUEMARIO-%20Event%20management%2C%20Stage%20decoration%2C%20Wedding%2C%20Birthday%2C%20in%20Thrissur%2C%20Kerala!5e0!3m2!1sen!2sin!4v1751541076905!5m2!1sen!2sin"

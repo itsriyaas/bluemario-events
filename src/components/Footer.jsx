@@ -11,7 +11,7 @@ const Footer = () => {
         <Row className="gy-4">
           {/* Logo Section */}
           <Col xs={12} md={4} className="text-center text-md-start">
-            <img src="assets/bluemario_logo.png" alt="Blue Mario" style={{ height: '70px' }} />
+            <img src="assets/bluemario_logo.png" alt="Blue Mario" style={{ height: '80px' }} />
           </Col>
 
           {/* Contact Info */}
