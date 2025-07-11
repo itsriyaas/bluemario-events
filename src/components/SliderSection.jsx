@@ -10,7 +10,7 @@ const slides = [
     image: 'assets/works/AJU08151-min.jpg',
   },
   {
-    image: 'https://i.pinimg.com/originals/e9/89/ab/e989abd00ddc6fc889716d5c7e23bab4.jpg',
+    image: 'assets/works/wedding-02.jpg',
   },
   {
     image: 'assets/works/slider1.webp',
