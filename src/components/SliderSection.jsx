@@ -15,6 +15,9 @@ const slides = [
   {
     image: 'assets/works/slider1.webp',
   },
+  {
+    image: 'https://sunandseabeachweddings.com/wp-content/uploads/2021/11/0V9A7796-2-2.jpg',
+  },
 ];
 
 const SliderSection = () => {
