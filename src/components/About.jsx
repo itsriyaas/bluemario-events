@@ -10,7 +10,7 @@ const AboutSection = () => {
         <Row className="align-items-center">
           {/* Text Content */}
           <Col md={6} data-aos="fade-right">
-            <p className="lead">
+            <p>
               At <strong>Blue Mario Events</strong>, we don't just plan events we craft unforgettable experiences. Whether it's a dream wedding, corporate gala, or themed celebration, our team brings creativity, professionalism, and passion to every moment.
             </p>
             <p>

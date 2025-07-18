@@ -68,7 +68,7 @@ const TestimonialsSection = () => {
           <SwiperSlide key={index}>
             <blockquote className="mx-auto animate__animated animate__fadeInUp" style={{ maxWidth: '900px' }}>
               <p className="fst-italic fs-5 text-muted">
-                <span style={{ fontSize: '3rem', opacity: 0.1, verticalAlign: 'top' }}>&ldquo;</span>
+                <span style={{ fontSize: '1.1rem', opacity: 0.1, verticalAlign: 'top' }}>&ldquo;</span>
                 {testimonial.message}
               </p>
               <h5 className="fw-bold text-dark mt-3">{testimonial.name}</h5>

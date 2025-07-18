@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root {
 
   /**
@@ -9,7 +9,7 @@
   --color-secondary: #e2f0fc;
 }
 *{
-    font-family: "DM Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /* Navbar */
@@ -60,6 +60,9 @@
   bottom: -5px;
   left: 0;
 }
+.homep{
+  font-size: 16px;
+}
 /* Swiper slider */
 .slider-wrapper {
   width: 100%;
@@ -77,6 +80,7 @@
   align-items: center;
   justify-content: center;
 }
+
 /* About */
 .about-section {
   background-color: white;

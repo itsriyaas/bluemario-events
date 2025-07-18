@@ -7,7 +7,7 @@ const BookUsSection = () => {
     <section className="book-us-section text-white text-center d-flex align-items-center">
       <div className="container py-5">
         <h1 className="display-5 fw-bold mb-3" data-aos="fade-up">Ready to Create Timeless Experiences?</h1>
-        <p className="lead mb-4" data-aos="fade-up" data-aos-delay="200">
+        <p className="leadh omep mb-4" data-aos="fade-up" data-aos-delay="200">
           Whether it's your dream wedding, a celebration of love, or a grand gathering Blue Mario is here to
           turn your vision into a spectacular reality. Let us design moments that live forever in hearts and memories.
         </p>
