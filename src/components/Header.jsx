@@ -22,11 +22,19 @@ const NavBar = () => {
           <img src="assets/bluemario_logo.png" alt="Blue Mario Logo" height={60} />
         </Navbar.Brand>
 
+        {/* Custom Toggle Button */}
         <Navbar.Toggle
           aria-controls="navbar-nav"
-          className="border-0 bg-light"
+          className="border-0 bg-transparent p-0"
           onClick={() => setExpanded(!expanded)}
-        />
+        >
+          {/* Custom White Hamburger Icon */}
+          <div style={{ width: '30px', height: '20px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+            <span style={{ height: '3px', background: 'white', borderRadius: '2px' }}></span>
+            <span style={{ height: '3px', background: 'white', borderRadius: '2px' }}></span>
+            <span style={{ height: '3px', background: 'white', borderRadius: '2px' }}></span>
+          </div>
+        </Navbar.Toggle>
 
         <Navbar.Collapse id="navbar-nav" className="justify-content-end">
           <Nav className="align-items-center gap-3">
