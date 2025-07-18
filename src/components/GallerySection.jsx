@@ -50,7 +50,7 @@ const GallerySection = () => {
         </div>
       </div>
 
-      <Container className="my-2">
+      <Container className="p-5">
         <Row className="g-4">
           {images.map((img, idx) => (
             <Col xs={12} sm={6} md={4} lg={3} key={idx} data-aos="zoom-in" data-aos-delay={idx * 50}>

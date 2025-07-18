@@ -38,7 +38,7 @@ const ContactSection = () => {
           <h1 className="display-5 fw-bold">CONTACT US</h1>
         </div>
       </div>
-      <div className="container mt-5">
+      <div className="container mt-5 p-5">
         <div className="row g-4 align-items-stretch">
           {/* Contact Form */}
           <div className="col-md-6" data-aos="fade-right">
