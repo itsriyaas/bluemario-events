@@ -7,7 +7,7 @@ import 'swiper/css/effect-fade';
 
 const slides = [
   {
-    image: 'assets/works/AJU08151-min.jpg',
+    image: 'https://sunandseabeachweddings.com/wp-content/uploads/2021/11/0V9A7796-2-2.jpg',
   },
   {
     image: 'assets/works/wedding-02.jpg',
@@ -15,9 +15,9 @@ const slides = [
   {
     image: 'assets/works/slider1.webp',
   },
-  {
-    image: 'https://sunandseabeachweddings.com/wp-content/uploads/2021/11/0V9A7796-2-2.jpg',
-  },
+ /*  {
+    image: 'assets/works/AJU08151-min.jpg',
+  }, */
 ];
 
 const SliderSection = () => {
