@@ -67,7 +67,7 @@ const TestimonialsSection = () => {
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <blockquote className="mx-auto animate__animated animate__fadeInUp" style={{ maxWidth: '900px' }}>
-              <p className="fst-italic fs-5 text-muted">
+              <p className="fst-italic fs-7 text-muted">
                 <span style={{ fontSize: '1.1rem', opacity: 0.1, verticalAlign: 'top' }}>&ldquo;</span>
                 {testimonial.message}
               </p>
