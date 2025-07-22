@@ -48,7 +48,7 @@ const GallerySection = () => {
       {/* Banner */}
       <div className="about-banner text-white d-flex justify-content-center align-items-center">
         <div className="text-center" data-aos="fade-down">
-          <h1 className="fw-bold">OUR WORKS</h1>
+          <h1>OUR WORKS</h1>
         </div>
       </div>
 

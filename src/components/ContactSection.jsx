@@ -35,7 +35,7 @@ const ContactSection = () => {
       {/* Banner */}
       <div className="about-banner text-white d-flex justify-content-center align-items-center">
         <div className="text-center" data-aos="fade-down">
-          <h1 className="fw-bold">CONTACT US</h1>
+          <h1>CONTACT US</h1>
         </div>
       </div>
       <div className="container mt-5 p-5">

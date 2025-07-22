@@ -12,13 +12,13 @@ const AboutUs = () => {
       {/* Banner */}
       <div className="about-banner text-white d-flex justify-content-center align-items-center">
         <div className="text-center" data-aos="fade-down">
-          <h1 className="fw-bold">ABOUT US</h1>
+          <h1>ABOUT US</h1>
         </div>
       </div>
 
       <div className="vision-section py-5 p-3">
         <div className="container text-center">
-          <h2 className="mb-4 fw-bold" data-aos="fade-up">OUR VISION</h2>
+          <h2 className="mb-4" data-aos="fade-up">OUR VISION</h2>
           <p
             className="homep text-muted mx-auto"
             style={{ maxWidth: '900px' }}
