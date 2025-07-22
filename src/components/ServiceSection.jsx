@@ -109,7 +109,7 @@ const ServicesSection = () => {
      {/* Banner */}
       <div className="service-banner text-white d-flex justify-content-center align-items-center">
         <div className="text-center" data-aos="fade-down">
-          <h1 className="display-5 fw-bold">SERVICES</h1>
+          <h1 className="fw-bold">SERVICES</h1>
         </div>
       </div>
       <Wrapper id='about'>

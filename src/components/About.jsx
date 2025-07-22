@@ -1,19 +1,26 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import BlurText from './BlurText';
 
 const AboutSection = () => {
   return (
     <section className="py-5" id="about">
       <Container>
-        <h2 className="text-center fw-bold mb-4">About Blue Mario Events</h2>
+        <BlurText
+  text="About Blue Mario Events"
+  delay={150}
+  animateBy="words"
+  direction="top"
+  className="fw-bold fs-3 text-center"
+/>
         <Row className="align-items-center">
           {/* Text Content */}
           <Col md={6} data-aos="fade-right">
-            <p className='text-center'>
+            <p>
               At <strong>Blue Mario Events</strong>, we don't just plan events we craft unforgettable experiences. Whether it's a dream wedding, corporate gala, or themed celebration, our team brings creativity, professionalism, and passion to every moment.
             </p>
-            <p className='text-center'>
+            <p>
               From concept to execution, we handle every detail meticulously venue selection, decor, entertainment, and guest management. Our goal is to make your event stress-free and stunning, reflecting your vision and personality.
             </p>
             <p className="mb-0">

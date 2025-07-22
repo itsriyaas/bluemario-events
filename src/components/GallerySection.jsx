@@ -24,6 +24,8 @@ const images = [
   { src: 'assets/works/wed12.jpg', alt: 'Traditional setup' },
   { src: 'assets/works/wed15.jpg', alt: 'Traditional setup' },
   { src: 'assets/works/wed16.jpg', alt: 'Traditional setup' },
+   { src: 'assets/works/stage4.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/stage7.jpg', alt: 'Traditional setup' },
 ];
 
 const GallerySection = () => {
@@ -46,7 +48,7 @@ const GallerySection = () => {
       {/* Banner */}
       <div className="about-banner text-white d-flex justify-content-center align-items-center">
         <div className="text-center" data-aos="fade-down">
-          <h1 className="display-5 fw-bold">OUR WORKS</h1>
+          <h1 className="fw-bold">OUR WORKS</h1>
         </div>
       </div>
 

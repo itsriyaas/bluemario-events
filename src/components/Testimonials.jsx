@@ -28,7 +28,7 @@ const testimonials = [
   },
   {
     name: "Sedwin Vadukut",
-    message: `This is the second time we are partnering with BlueMario for an event. This time it was for my son’s First Holy Communion. We virtually engaged Darwin and his team from our home base in Florida.`,
+    message: `This is the second time we are partnering with BlueMario for an event. This time it was for my son's First Holy Communion. We virtually engaged Darwin and his team from our home base in Florida.`,
   },
   {
     name: "Saritha John",
@@ -48,13 +48,13 @@ const testimonials = [
   },
   {
     name: "Ashok Kumar",
-    message: `It’s my cousin's baby’s baptism. They gave us a wonderful heavenly experience. Darwin and Visakh are very creative and customer friendly.`,
+    message: `It's my cousin's baby's baptism. They gave us a wonderful heavenly experience. Darwin and Visakh are very creative and customer friendly.`,
   },
 ];
 
 const TestimonialsSection = () => {
   return (
-    <div className="testimonials-section py-5 bg-light text-center">
+    <div className="testimonials-section py-5 bg-light text-center p-3">
       <h2 className="fw-bold mb-4 text-secondary animate__animated animate__fadeInDown">TESTIMONIALS</h2>
       <Swiper
         modules={[Pagination, Autoplay]}
@@ -67,11 +67,11 @@ const TestimonialsSection = () => {
         {testimonials.map((testimonial, index) => (
           <SwiperSlide key={index}>
             <blockquote className="mx-auto animate__animated animate__fadeInUp" style={{ maxWidth: '900px' }}>
-              <p className="fst-italic fs-7 text-muted">
-                <span style={{ fontSize: '1.1rem', opacity: 0.1, verticalAlign: 'top' }}>&ldquo;</span>
+              <p className=" fs-7 text-muted">
+                <span style={{ fontSize: '1rem', opacity: 0.1, verticalAlign: 'top' }}>&ldquo;</span>
                 {testimonial.message}
               </p>
-              <h5 className="fw-bold text-dark mt-3">{testimonial.name}</h5>
+              <h5 className="fw-bold text-dark mt-3 mb-5">{testimonial.name}</h5>
             </blockquote>
           </SwiperSlide>
         ))}
