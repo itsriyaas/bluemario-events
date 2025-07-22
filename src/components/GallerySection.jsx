@@ -26,6 +26,10 @@ const images = [
   { src: 'assets/works/wed16.jpg', alt: 'Traditional setup' },
    { src: 'assets/works/wed11.jpg', alt: 'Traditional setup' },
   { src: 'assets/works/stage7.jpg', alt: 'Traditional setup' },
+   { src: 'assets/works/new4.jpg', alt: 'Traditional setup' },
+   { src: 'assets/works/new2.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/new3.jpg', alt: 'Traditional setup' },
+  { src: 'assets/works/new1.jpg', alt: 'Traditional setup' },
 ];
 
 const GallerySection = () => {
