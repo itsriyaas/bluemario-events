@@ -319,26 +319,32 @@ blockquote {
   align-self: flex-end;
 }
 
+/* ✅ Responsive for mobiles */
 @media (max-width: 768px) {
   .taste-section {
     flex-direction: column;
+    padding: 2rem 1rem;
+  }
+
+  .taste-content,
+  .taste-images {
+    flex: 1 1 100%;
     text-align: center;
   }
 
-  .taste-images {
-    flex-direction: column;
-    align-items: center;
+  .image {
+    max-width: 100%;
   }
 
-  .image-left,
-  .image-right {
-    width: 90%;
-    margin: 0.5rem 0;
+  .taste-content h3 {
+    font-size: 1.6rem;
+  }
+
+  .taste-content .description {
+    font-size: 1rem;
   }
 
   .button-group {
     justify-content: center;
-    flex-direction: column;
-    gap: 0.8rem;
   }
 }
