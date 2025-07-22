@@ -13,7 +13,7 @@ const TasteSection = () => {
       <div className="taste-content" data-aos="fade-right">
         <h3>Crafting Moments<br /><small>Creating Memories</small></h3>
         <p className="description">
-          At Blue Mario Events, we go beyond event planning — we craft unforgettable experiences tailored to your vision. From elegant weddings and dynamic corporate galas to themed celebrations full of personality, our team brings unmatched creativity, professionalism, and passion to every detail.
+          At Blue Mario Events, we go beyond event planning we craft unforgettable experiences tailored to your vision. From elegant weddings and dynamic corporate galas to themed celebrations full of personality, our team brings unmatched creativity, professionalism, and passion to every detail.
         </p>
         <div className="button-group">
           <a href='https://www.instagram.com/bluemariodecorationsandevents/' target='_blank' rel="noreferrer">
