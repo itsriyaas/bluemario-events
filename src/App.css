@@ -347,4 +347,50 @@ blockquote {
   .button-group {
     justify-content: center;
   }
+  .Insta img{
+    width:100%;
+  }
+}
+.insta-image-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.insta-image-wrapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+
+/* Overlay for dimming + icon */
+.insta-hover-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* dim effect */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.insta-logo {
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+}
+
+/* Hover effect */
+.insta-image-wrapper:hover .insta-hover-overlay {
+  opacity: 1;
+}
+
+.insta-image-wrapper:hover img {
+  transform: scale(1.05);
 }

@@ -12,6 +12,12 @@ const slides = [
    {
     image: 'assets/works/stage6.jpg',
   },
+  {
+    image: 'assets/works/stage1.jpg',
+  },
+  {
+    image: 'assets/works/stage2.jpg',
+  },
 ];
 
 const SliderSection = () => {

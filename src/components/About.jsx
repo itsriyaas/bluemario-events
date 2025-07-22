@@ -2,21 +2,22 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import BlurText from './BlurText';
+import { FaInstagram } from 'react-icons/fa';
 
 const AboutSection = () => {
   return (
     <section className="py-5" id="about">
       <Container>
-        <BlurText
+        <Row className="align-items-center">
+          {/* Text Content */}
+          <Col md={6} data-aos="fade-right">
+           <BlurText
   text="About Blue Mario Events"
   delay={150}
   animateBy="words"
   direction="top"
   className="fw-bold fs-3 text-center"
 />
-        <Row className="align-items-center">
-          {/* Text Content */}
-          <Col md={6} data-aos="fade-right">
             <p>
               At <strong>Blue Mario Events</strong>, we don't just plan events we craft unforgettable experiences. Whether it's a dream wedding, corporate gala, or themed celebration, our team brings creativity, professionalism, and passion to every moment.
             </p>
@@ -29,17 +30,17 @@ const AboutSection = () => {
       <Link to={'/about'}><button className='btn mt-3'>Read More</button></Link>
           </Col>
 
-          {/* YouTube Video */}
-          <Col md={6} data-aos="fade-right" className="mt-4 mt-md-0">
-            <div className="ratio ratio-16x9">
-              <iframe
-                src="https://www.youtube.com/embed/TeTw19X-xMg"
-                title="Blue Mario Events"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              ></iframe>
-            </div>
-          </Col>
+          {/* Insta Video */}
+          <Col md={6} data-aos="fade-right" className="Insta mt-4 mt-md-0">
+  <div className="insta-image-wrapper">
+    <img className="rounded" src="assets/works/wedimg1.jpg" alt="Event" width="100%" />
+    <div className="insta-hover-overlay">
+      <a href='https://www.instagram.com/bluemariodecorationsandevents/' target='_blank'><FaInstagram className="insta-logo text-light"/></a>
+    </div>
+  </div>
+</Col>
+
+
         </Row>
       </Container>
     </section>
