@@ -189,7 +189,7 @@ blockquote {
 @media (max-width: 768px) {
  .slider-wrapper{
   width: 100%;
-  height: 250px;
+  height: auto;
  }
 }
 .gallery-body{
