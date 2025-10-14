@@ -50,6 +50,9 @@ const NavBar = () => {
             <NavLink to="/our-work" className="nav-link" onClick={handleNavClick}>
               Our Work
             </NavLink>
+            <NavLink to="/blog" className="nav-link" onClick={handleNavClick}>
+              Blogs
+            </NavLink>
             <NavLink to="/contact" className="nav-link" onClick={handleNavClick}>
               Contact
             </NavLink>

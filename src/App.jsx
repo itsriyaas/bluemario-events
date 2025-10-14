@@ -12,6 +12,8 @@ import 'aos/dist/aos.css';
 import { useEffect } from 'react';
 import NotFound from './pages/NotFound';
 import WhatsAppButton from './components/WhatsappButton';
+import Blog from './pages/Blog';
+import BlogDetails from './components/BlogDetails';
 function App() {
  useEffect(() => {
   AOS.init({ duration: 1000 });
@@ -27,6 +29,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/services" element={<Services />} />
             <Route path="/our-work" element={<OurWorks />} />
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/:id" element={<BlogDetails />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

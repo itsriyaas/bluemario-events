@@ -25,9 +25,9 @@ const AboutUs = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            At <strong>BlueMario Events</strong>, we believe every celebration is a beautiful story waiting to be told and your wedding is the most enchanting chapter of all. From the first detail to the final moment, we craft experiences that are deeply personal, emotionally rich, and unforgettable.
+            At <strong>Blue Mario Events</strong>, our vision is to become the premier wedding planner in Thrissur, recognized for turning ordinary events into remarkable experiences. We are committed to leading the event management sector in Kerala by embracing creativity, precision, and innovation - guaranteeing that each celebration embodies beauty, emotion, and elegance.
             <br /><br />
-            Weddings aren't just events they're timeless memories, shared laughter, joyful tears, and fleeting moments captured in photographs, held in hearts, and passed down through generations. That's why we approach every wedding with passion, creativity, and the utmost care.
+           Our goal is to craft unforgettable memories through impeccable wedding decor services, meticulous planning, and outstanding customer support
             <br /><br />
             With a team that lives and breathes events, we're here to transform your dreams into a breathtaking reality whether it's a grand destination affair or an intimate gathering of loved ones. Every element is designed to reflect your story, your style, your spirit.
             <br /><br />

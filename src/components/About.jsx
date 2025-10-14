@@ -19,13 +19,8 @@ const AboutSection = () => {
   className="fw-bold fs-3 text-center"
 />
             <p>
-              At <strong>Blue Mario Events</strong>, we don't just plan events we craft unforgettable experiences. Whether it's a dream wedding, corporate gala, or themed celebration, our team brings creativity, professionalism, and passion to every moment.
-            </p>
-            <p>
-              From concept to execution, we handle every detail meticulously venue selection, decor, entertainment, and guest management. Our goal is to make your event stress-free and stunning, reflecting your vision and personality.
-            </p>
-            <p className="mb-0">
-              Join the celebration with Blue Mario Events where your ideas come to life in style.
+             The Blue Mario Events team believes every celebration deserves to be unforgettable. We specialize in creating extraordinary events that reflect your dreams, emotions, and personality as the top wedding planner in Thrissur. <br /><br />
+             Our team has years of experience in wedding planning, stage decoration, and event management in Kerala. We handle every detail - so you can simply enjoy your special day.
             </p>
       <Link to={'/about'}><button className='btn mt-3'>Read More</button></Link>
           </Col>

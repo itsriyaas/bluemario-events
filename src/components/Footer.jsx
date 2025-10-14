@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import { FaInstagram, FaFacebookF, FaTwitter, FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaInstagram, FaFacebookF, FaEnvelope, FaPhone } from 'react-icons/fa';
 import { FaMapLocation } from 'react-icons/fa6';
 import { Link } from 'react-router-dom';
 
@@ -16,13 +16,17 @@ const Footer = () => {
 
           {/* Contact Info */}
           <Col xs={12} md={4}>
-            <h6 className="text-uppercase fw-bold mb-3 text-light">Contact</h6>
-            <p className="mb-1 text-light"><FaMapLocation className='me-2 text-light'/>Perumbilissery, Thrissur, Kerala 680561</p>
-            <p className='text-light'><FaPhone className='me-2 text-light'/>7593091408, 9633793951</p>
-            <p className="mt-2 text-light">
-              <FaEnvelope className="me-2 text-light" />
-              info@bluemarioevents.com
-            </p>
+            <div className='links'>
+              <h6 className="text-uppercase fw-bold mb-3 text-light">Contact</h6>
+              <a href='https://maps.app.goo.gl/gJPiarSsjJPDHb7f9' target='_blank'><p className="mb-1 text-light"><FaMapLocation className='me-2 text-light'/>Perumbilissery, Thrissur, Kerala 680561</p></a>
+              <a href='tel:7593091408' target='_blank'><p className='text-light'><FaPhone className='me-2 text-light'/>7593091408, 9633793951</p></a>
+              <a href='mailto:info@bluemarioevents.com'>
+                <p className="mt-2 text-light">
+                  <FaEnvelope className="me-2 text-light" />
+                  info@bluemarioevents.com
+                </p>
+              </a>
+            </div>
           </Col>
 
           {/* Menu Links */}
