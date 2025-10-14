@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
     <Helmet>
-        <title>Birthday Event planner in Thrissur </title>
+        <title>Birthday Event planner in Thrissur | Blue Mario Events</title>
         <meta
           name="description"
           content="Blue Mario Events stands as the premier birthday event planner in Thrissur, specializing in personalized decorations, themed celebrations
