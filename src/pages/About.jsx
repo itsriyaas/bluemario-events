@@ -9,8 +9,7 @@ function About() {
         <title>Best Event Planner in Thrissur, Kerala | Blue Mario Events </title>
         <meta
           name="description"
-          content="Blue Mario Events is a top event planner in Thrissur, providing expert wedding planning, theme decor, and comprehensive event management services in thrissur
-"
+          content="Blue Mario Events is a top event planner in Thrissur, providing expert wedding planning,  and comprehensive event management services in thrissur"
         />
 
         {/* Open Graph / Facebook */}
@@ -18,7 +17,7 @@ function About() {
         <meta property="og:title" content="Best Event Planner in Thrissur, Kerala | Blue Mario Events " />
         <meta
           property="og:description"
-          content="Blue Mario Events is a top event planner in Thrissur, providing expert wedding planning, theme decor, and comprehensive event management services in thrissur"
+          content="Blue Mario Events is a top event planner in Thrissur, providing expert wedding planning,  and comprehensive event management services in thrissur"
         />
         <meta property="og:url" content="https://www.bluemarioevents.com/" />
         <meta property="og:image" content="https://www.bluemarioevents.com/assets/bm_footer.png" />

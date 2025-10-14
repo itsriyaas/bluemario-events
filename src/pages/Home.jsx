@@ -13,7 +13,7 @@ function Home() {
         <title>Top Wedding Planner in Thrissur | Blue Mario Events</title>
         <meta
           name="description"
-          content="The top Thrissur wedding planner at Blue Mario Events specializes in wedding decoration, stage design, event coordination, and luxury planning services across Kerala.
+          content="The top Thrissur wedding planner at Blue Mario Events specializes in wedding decoration, stage design, and luxury planning services across Kerala.
 "
         />
 
@@ -22,7 +22,7 @@ function Home() {
         <meta property="og:title" content="Top Wedding Planner in Thrissur | Blue Mario Events" />
         <meta
           property="og:description"
-          content="The top Thrissur wedding planner at Blue Mario Events specializes in wedding decoration, stage design, event coordination, and luxury planning services across Kerala."
+          content="The top Thrissur wedding planner at Blue Mario Events specializes in wedding decoration, stage design, and luxury planning services across Kerala."
         />
         <meta property="og:url" content="https://www.bluemarioevents.com/" />
         <meta property="og:image" content="https://www.bluemarioevents.com/assets/bm_footer.png" />
