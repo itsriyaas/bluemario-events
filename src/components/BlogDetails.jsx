@@ -1,5 +1,6 @@
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useLocation } from "react-router-dom";
 import { Container, Row, Col, Button, Badge } from "react-bootstrap";
+import { Helmet } from "react-helmet";
 
 const blogPosts = [
     {
@@ -80,7 +81,8 @@ const blogPosts = [
 const BlogDetails = () => {
     const { id } = useParams();
     const blog = blogPosts.find((b) => b.id === id);
-
+    const location = useLocation();
+    const canonicalUrl = `https://bluemarioevents.com${location.pathname}`;
     if (!blog) {
         return (
             <Container className="text-center my-5">
@@ -93,36 +95,59 @@ const BlogDetails = () => {
     }
 
     return (
-        <Container className="my-5">
-            {/* Blog Header */}
-            <div className="text-center mb-5">
-                <img
-                    src={blog.coverImage}
-                    alt={blog.title}
-                    className="img-fluid rounded shadow-sm mb-4 blog-cover"
-                />
-                <h1 className="fw-bold">{blog.title}</h1>
-                <div className="text-muted small mt-2">
-                    <Badge bg="primary" className="me-2">{blog.category}</Badge>
-                    <span>{blog.date} • By {blog.author}</span>
-                </div>
-            </div>
+        <>
+        <Helmet>
+             <title>Event Organizers in Thrissur | Blue Mario Events</title>
+        <meta
+          name="description"
+          content="Bringing creativity and perfection to every event is our goal at Blue Mario Events. Planning memorable events in Thrissur with expert planners.
 
-            {/* Blog Content */}
-            <Row className="justify-content-center">
-                <Col lg={9} md={10}>
-                    <div
-                        className="blog-content"
-                        dangerouslySetInnerHTML={{ __html: blog.content }}
+"
+        />
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="Event Organizers in Thrissur | Blue Mario Events
+ " />
+        <meta
+          property="og:description"
+          content="Bringing creativity and perfection to every event is our goal at Blue Mario Events. Planning memorable events in Thrissur with expert planners.
+"
+        />
+        <meta property="og:url" content="https://www.bluemarioevents.com/" />
+        <meta property="og:image" content="https://www.bluemarioevents.com/assets/bm_footer.png" />
+        <link rel="canonical" href={canonicalUrl} />
+      </Helmet>
+            <Container className="my-5">
+                {/* Blog Header */}
+                <div className="text-center mb-5">
+                    <img
+                        src={blog.coverImage}
+                        alt={blog.title}
+                        className="img-fluid rounded shadow-sm mb-4 blog-cover"
                     />
-                    <div className="text-center mt-5">
-                        <Button as={Link} to="/blog" variant="secondary">
-                            ← Back to Blogs
-                        </Button>
+                    <h1 className="fw-bold">{blog.title}</h1>
+                    <div className="text-muted small mt-2">
+                        <Badge bg="primary" className="me-2">{blog.category}</Badge>
+                        <span>{blog.date} • By {blog.author}</span>
                     </div>
-                </Col>
-            </Row>
-        </Container>
+                </div>
+    
+                {/* Blog Content */}
+                <Row className="justify-content-center">
+                    <Col lg={9} md={10}>
+                        <div
+                            className="blog-content"
+                            dangerouslySetInnerHTML={{ __html: blog.content }}
+                        />
+                        <div className="text-center mt-5">
+                            <Button as={Link} to="/blog" variant="secondary">
+                                ← Back to Blogs
+                            </Button>
+                        </div>
+                    </Col>
+                </Row>
+            </Container>
+        </>
     );
 };
 
