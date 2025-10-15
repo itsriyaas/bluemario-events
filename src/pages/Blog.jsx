@@ -35,7 +35,7 @@ const Blog = () => {
         <meta property="og:image" content="https://www.bluemarioevents.com/assets/bm_footer.png" />
 
         {/* Canonical URL */}
-        <link rel="canonical" href="https://www.bluemarioevents.com/contact" />
+        <link rel="canonical" href="https://www.bluemarioevents.com/blog" />
       </Helmet>
         <Container className="my-5">
           <h2 className="text-center mb-4">Our Latest Blogs</h2>
